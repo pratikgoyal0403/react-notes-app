@@ -1,0 +1,8 @@
+.inputBox{
+    width: 90%;
+    border: none;
+    margin-left: 10px;
+}
+.inputBox:focus{
+    outline: none;
+}

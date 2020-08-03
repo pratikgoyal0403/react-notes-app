@@ -1,0 +1,40 @@
+.topicContainer{
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.selected{
+    background-color: #05539c;
+}
+.topicContainer:hover{
+    background-color: #05539c;
+}
+.topicText{
+    text-transform: capitalize;
+    pointer-events: none;
+}
+.topicText::selection{
+    background-color: transparent;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.large{
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    padding: .5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.large:hover{
+    background-color: #043f77;
+}
+.red{
+    color: #FF3031;
+}

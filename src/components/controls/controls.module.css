@@ -1,0 +1,16 @@
+.fakebox{
+    background-color: white;
+    width: 80%;
+    display: flex;
+    padding: .7rem;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 15px;
+    font-size: 1.6rem;
+
+}
+
+.largeIcon{
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+}

@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    background-color: #0A79DF;
+    font-family: sans-serif;
+}
+.wrapper h1{
+    color: #133381;
+    font-size: 7rem;
+    width: fit-content;
+    margin: auto;
+}
+
+ /* total width */
+::-webkit-scrollbar {
+    background-color: #fff;
+    width:16px;
+}
+
+/* background of the scrollbar except button or resizer */
+ ::-webkit-scrollbar-track {
+    background-color: #1275d3;
+    cursor: pointer;
+}
+::-webkit-scrollbar-track:hover {
+    background-color:#133381;
+    cursor: pointer;
+}
+
+/* scrollbar itself */
+::-webkit-scrollbar-thumb {
+    background-color:#fff;
+    border-radius:16px;
+    border:5px solid #fff;
+    cursor: pointer;
+}
+::-webkit--thumb:hover {
+    background-color:#a0a0a5;
+    border:4px solid #f4f4f4 
+}
+.playground{
+    width: 70vw;
+    height: 60vh;
+    margin: auto;
+    background-color: #0A79DF;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 41px 41px 82px #0967be,
+                -41px -41px 82px #0c8bff;
+}
+.left-pane{
+    height: 100%;
+    width: 50%;
+    background-color: #0A79DF;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: inset 13px 13px 26px #074f91, 
+            inset -13px -13px 26px #0ea3ff;
+
+    /* border: 2px solid black; */
+}
+.input-section{
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    padding: 10px;
+}
+.topics-section{
+    height: 90%;
+    overflow-y: scroll;
+}
+.right-pane{
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(145deg, #0b81ef, #096dc9);
+    box-shadow:  13px 13px 26px #074f91, 
+             -13px -13px 26px #0ea3ff;
+    color: white;
+    overflow-x: hidden;
+}
+.notes-heading{
+    padding: 10px;
+    font-size: 2rem;
+    height: 9%;
+    width: 100%;
+    overflow-y: scroll;
+}
+.notes-heading::selection{
+    background-color: #EAF0F1;
+}
+.notes-body{
+    padding: 20px 10px;
+    font-size: 16px;
+    height: 90%;
+    width: 100%;
+    line-height: 2.4rem;
+    overflow-y: scroll;
+}
+.notes-body::selection{
+    background-color: #EAF0F1;
+}

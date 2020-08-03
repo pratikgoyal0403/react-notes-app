@@ -1,0 +1,16 @@
+button{
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    line-height: 5px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+button:hover{
+    background-color: #044786d2;
+}
+button:focus{
+    outline: none;
+    
+}
