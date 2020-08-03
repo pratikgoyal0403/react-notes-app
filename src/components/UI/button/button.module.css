@@ -1,4 +1,4 @@
-button{
+.button{
     color: white;
     background-color: transparent;
     border: none;
@@ -7,10 +7,10 @@ button{
     margin-left: 10px;
     border-radius: 50%;
 }
-button:hover{
+.button:hover{
     background-color: #044786d2;
 }
-button:focus{
+.button:focus{
     outline: none;
     
 }
